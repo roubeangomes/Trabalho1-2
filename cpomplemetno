@@ -1,0 +1,29 @@
+medidas <- summarise(DadosEscovacao1,
+                      MEDIAIndiceEscovaTradicionalAntes = mean(DadosEscovacao1$`Indice de Placa Escova Tradicional Antes`),
+                      MEDIAIndiceEscovaTradicionalDepois = mean(DadosEscovacao1$`Indice de Placa Escova Tradicional Antes`),
+                      MEDIAIndiceEscovaHuggerAntes = mean(DadosEscovacao1$`Indice de Placa Escova Hugger Antes`),
+                      MEDIAIndiceEscovaHuggerDepois = mean(DadosEscovacao1$`Indice de Placa Escova Hugger Depois`),
+                      MEDIADiferencaEscovaTradicional = mean(DadosEscovacao1$`Diferença Indice de Placa Antes/Depois Escova Tradicional`),
+                      MEDIADiferencaEscovaHugger = mean(DadosEscovacao1$`Diferença Indice de Placa Antes/Depois Escova Hugger`))
+                      
+                      MEDIANAIndiceEscovaTradicionalAntes = median(DadosEscovacao1$`Indice de Placa Escova Tradicional Antes`),
+                      MEDIANAIndiceEscovaTradicionalDepois = median(DadosEscovacao1$`Indice de Placa Escova Tradicional Antes`),
+                      MEDIANAIndiceEscovaHuggerAntes = median(DadosEscovacao1$`Indice de Placa Escova Hugger Antes`),
+                      MEDIANAIndiceEscovaHuggerDepois = median(DadosEscovacao1$`Indice de Placa Escova Hugger Depois`),
+                      MEDIANADiferencaEscovaTradicional = median(DadosEscovacao1$`Diferença Indice de Placa Antes/Depois Escova Tradicional`),
+                      MEDIANADiferencaEscovaHugger = median(DadosEscovacao1$`Diferença Indice de Placa Antes/Depois Escova Hugger`),
+                      
+                      SDdiceEscovaTradicionalAntes = sd(DadosEscovacao1$`Indice de Placa Escova Tradicional Antes`),
+                      SDIndiceEscovaTradicionalDepois = sd(DadosEscovacao1$`Indice de Placa Escova Tradicional Antes`),
+                      SDIndiceEscovaHuggerAntes = sd(DadosEscovacao1$`Indice de Placa Escova Hugger Antes`),
+                      SDIndiceEscovaHuggerDepois = sd(DadosEscovacao1$`Indice de Placa Escova Hugger Depois`),
+                      SDDiferencaEscovaTradicional = sd(DadosEscovacao1$`Diferença Indice de Placa Antes/Depois Escova Tradicional`),
+                      SDDiferencaEscovaHugger = sd(DadosEscovacao1$`Diferença Indice de Placa Antes/Depois Escova Hugger`),
+                      
+                      VARIndiceEscovaTradicionalAntes = var(DadosEscovacao1$`Indice de Placa Escova Tradicional Antes`),
+                      VARIndiceEscovaTradicionalDepois = var(DadosEscovacao1$`Indice de Placa Escova Tradicional Antes`),
+                      VARIndiceEscovaHuggerAntes = var(DadosEscovacao1$`Indice de Placa Escova Hugger Antes`),
+                      VARIndiceEscovaHuggerDepois =var(DadosEscovacao1$`Indice de Placa Escova Hugger Depois`),
+                      VARDiferencaEscovaTradicional = var(DadosEscovacao1$`Diferença Indice de Placa Antes/Depois Escova Tradicional`),
+                      VARDiferencaEscovaHugger = var(DadosEscovacao1$`Diferença Indice de Placa Antes/Depois Escova Hugger`))
+                   
